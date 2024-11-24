@@ -1,0 +1,60 @@
+.pageWrapper {
+  min-height: 100vh;
+}
+.contentArea {
+  flex-grow: 1;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.card {
+  box-shadow: $card-box-shadow;
+  margin-bottom: 30px;
+}
+
+.circle-box {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  &.lg-box {
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    line-height: 60px;
+  }
+}
+.button-group .btn {
+  margin: 8px 0;
+  text-decoration: none; 
+  background-color: #4aa0d9; 
+  color: white; 
+  border: 2px solid #4aa0d9; 
+  transition: background-color 0.3s, border-color 0.3s; 
+}
+
+.button-group .btn:hover {
+  background-color: #338cc8; 
+  border-color: #338cc8; 
+}
+
+.button-group .btn:active {
+  background-color: #FFF; 
+  border-color: #FFF; 
+  color: #000;
+}
+
+.button-group .btn:focus {
+  outline: none; 
+}
+table th {
+  font-weight: 500;
+}
+
+
+.table>:not(:first-child) {
+  border-top: 2px solid;
+}
+.table-borderless>:not(:first-child) {
+  border-top-width: 0;
+}
